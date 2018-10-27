@@ -1,0 +1,177 @@
+#day1{
+    width: 22%; 
+    margin: 15px 1% 15px 3%;
+}
+
+#day2{
+    width: 22%; 
+    margin: 15px 1%;
+}
+
+#day3{
+    width: 22%; 
+    margin: 15px 1%;
+}
+
+#day4{
+    width: 22%; 
+    margin: 15px 2% 15px 1%;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.probootstrap-navbar .navbar-nav > li > a {
+    color: white;
+}
+
+#checklistlogin{
+    padding-bottom: 30px;
+}
+
+#chlist{
+    margin-bottom: 15px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 990px) {
+
+    #logo{
+        width: 180px;
+    }
+
+    
+
+    .nav{
+        background-color: transparent;
+    }
+
+    #navbar-collapse{
+        background-color: transparent;
+    }
+
+    #wrapper{
+        width: 90%;
+    }
+
+    #mainWeather{
+        text-align: center
+    }
+
+    .day-weather-box{
+        width: 80%;
+        text-align: center;
+    }
+
+    #day1{
+        float: left;
+        width: 22%; 
+        margin: 15px 1%;
+        margin-left: 3%;
+    }    
+    
+    #day2{
+        float: left;
+        width: 22%; 
+        margin: 15px 1%;
+    }
+    
+    #day3{
+        float: left;
+        width: 22%; 
+        margin: 15px 1%;
+    }
+    
+    #day4{
+        float: left;
+        width: 22%; 
+        margin: 15px 2% 15px 1%;
+    }    
+
+}
+
+
+@media (max-width: 770px) {
+
+    #logo{
+        width: 180px;
+    }
+
+    #wrapper{
+        width: 90%;
+    }
+
+    #mainWeather{
+        text-align: center
+    }
+
+    #forDays{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #day1{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #day2{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #day3{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #day4{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+
+}
+

@@ -1,0 +1,14 @@
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #212529;
+    border-color: #32383e;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+#gas-form{
+    background-color: rgb(233, 80, 42);
+}

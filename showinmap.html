@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/supplies.js"></script>
+</head>
+
+<body>
+
+    <div id="map" style="height: 400px; width: 100%"></div>
+
+    <script>
+        function initMap() {
+            
+            var storelat = parseFloat(localStorage.getItem("storelat"));
+            var storelong = parseFloat(localStorage.getItem("storelong"));
+
+            coordenates = { lat: storelat, lng: storelong };
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 12, center: coordenates });
+            var marker = new google.maps.Marker({ position: coordenates, map: map });
+        }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZtZG_egpMYJiO2zmWL8IG0VqiXNYuW1g&callback=initMap"></script>
+
+</body>
+
+</html>

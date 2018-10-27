@@ -1,0 +1,91 @@
+a {
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active, a:focus{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+  .active {
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+  }
+
+  #logo{
+    -webkit-filter: drop-shadow(1px 1px 0 white)
+                  drop-shadow(-1px -1px 0 white);
+  filter: drop-shadow(1px 1px 0 white) 
+          drop-shadow(-1px -1px 0 white);
+  }
+  
+  body{
+    background-color: #F4F6F7;
+  }
+  
+  #wrapper {
+    background-color:transparent;
+    box-shadow: 1px 5px 25px 3px #444;
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 1000px;
+    padding: 0px;
+    color: white;
+  }
+  
+  #current-weather{
+    padding: 15px;
+  }
+  
+  #mainTemperature{
+    font-size: 5.5em; 
+    line-height: 0.7;
+  }
+  /* Changes to weather icon */
+  #main-icon{
+    float:left;
+  }
+  
+  /* Changed text align to left */
+  #tempDescription {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .day-weather-box {
+    background-color: rgb(78, 80, 82, .5);
+    border-radius: 5px;
+    height: 5em;
+    opacity: 5;
+  }
+  
+  .day-weather-box p{
+    margin-bottom: 0;
+  }
+  
+  .side-weather-info {
+    padding: 0px 10px;
+  }
+  
+  .day-weather-inner-box {
+    display: inline-flex;
+    margin: 14px auto;
+    padding: 0px 5px;
+  }
+  
+  .forecast-main {
+    padding: 0px 0px 0px 30px;
+  }
+  
+  .forecast-icon {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  
+  .modal-body p{
+    color: #333;
+  }
